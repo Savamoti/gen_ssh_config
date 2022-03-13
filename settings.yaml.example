@@ -1,0 +1,8 @@
+url: "https://netbox.example.ru"
+token: "token_id"
+# With what tag devices are needed
+tag: "gen_ssh_config"
+# With what status devices are needed. The list of statuses, logic OR is working.
+statuses:
+  - "active"
+  - "planned"
