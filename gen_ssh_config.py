@@ -141,7 +141,7 @@ def get_hosts(netbox_api, tag, status_list):
 
             host_list.append(
                 {
-                    "name": host.name.split('.')[0],
+                    "name": host.name,
                     "ip": host.primary_ip.address.split("/")[0]
                 }
             )
